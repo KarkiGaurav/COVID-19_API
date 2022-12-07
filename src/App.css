@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Inter:wght@500&family=Khand:wght@300&family=Quicksand:wght@453&family=Work+Sans:wght@200&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #6ce9af;
+}
+
+.indcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #32f198;
+    margin-top: 50px;
+    width: 60vw;
+    margin-left: 20vw;
+}
+
+h1{
+    text-align: center;
+    color: rgb(65, 1, 1);
+    border-bottom: 2px solid black;
+}
+
+ span{
+    color: rgb(4, 92, 4);
+    font-size: 50px;
+    
+}
+
+.inddata{
+    background-color: #6ce9af;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+    
+
+}
+p{
+    height: 100px;
+    width: 220px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(201, 89, 89);
+    margin: 10px 0px;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0;
+   
+}
+p:hover{
+    color: white;
+    background-color: purple;
+}
+p span{
+    font-size: 30px;
+    border-bottom: 1px solid brown;
+    
+}
+
+.worldcontainer{
+    width: 70vw;
+    display: grid;
+    place-items: center;
+    /* border: 2px solid black; */
+    margin-left: 15vw;
+    margin-top: 30px;
+}
+.tablecls{
+    border: 2px solid black;
+    margin-top: 30px;
+    background-color: #32f198;
+   
+}
+.tablerow{
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+
+th{
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(48, 40, 31);
+    color: blanchedalmond;
+    font-size: 30px;
+}
+td{
+    text-align: center;
+    color: black;
+}
+td:hover{
+   background-color: rgb(29, 212, 29);
+}
